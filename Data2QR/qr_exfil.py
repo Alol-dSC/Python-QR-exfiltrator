@@ -2,7 +2,7 @@ import qrcode
 import base64
 import os
 
-qrSize = 500 
+qrSize = 500 #the length in chars of each strings that gets converted to base64, zbarimg doesn't recognize over a certain threshold
 txt = open("testfile.txt","r")
 encText = base64.b64encode(txt.read())
 
