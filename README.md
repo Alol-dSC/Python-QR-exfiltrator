@@ -1,5 +1,5 @@
 # Python-QR-exfiltrator
-I saw this video on Hak5's YT channel (https://www.youtube.com/watch?v=WBkNgb-iPGE) that showed data exfiltration using QR codes so I tried recreating it with python
+I saw this video on Hak5's YT channel (https://www.youtube.com/watch?v=WBkNgb-iPGE) that showed data exfiltration using QR codes so I tried to recreate it with python
 
 ## Prerequisites 
 This script is meant to run on python 2.x a linux machine, I'll probably make it windows compatible in the future.
