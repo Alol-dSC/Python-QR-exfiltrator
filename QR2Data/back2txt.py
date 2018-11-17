@@ -2,8 +2,8 @@ import os
 import base64
 
 os.system("echo > tmp")
-os.system("convert -verbose ../output.gif out.png")
-for i in range (0,18):
+os.system("convert ../output.gif out.png")
+for i in range (0,18): #the range is dependant on the size of data in each qrcode
 	cmd = "zbarimg out-"+ str(i) +".png >> tmp"
 	os.system(cmd)
 
